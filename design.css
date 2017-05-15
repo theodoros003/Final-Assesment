@@ -1,0 +1,144 @@
+body {
+	background-image: url("img/pizzabg6.jpg");
+	background-size: 200px;
+}
+#wrapper {
+    font-family: arial;
+	font-style: oblique;
+    background-color: transparent;
+	margin: auto;
+}
+#header {
+    width: auto;
+    background-image: url("img/pizza.jpg");
+	background-size: 260px 230px;
+    text-align: center;
+	color: red;
+}
+#date {
+	background-color: yellow;
+    margin: auto;
+    width: 320px;
+    font-size: 30px;
+    border: 10px double;
+    font-family: Arial Narrow, sans-serif;
+    text-align: center;
+}
+#header button {
+	font-size: 25px;
+	background-color: yellow;
+	color: red;
+	border-color: red;
+}
+#header h1 {
+	background-color: yellow;
+}
+#leftside img {
+	width: 550px;
+	height: 450px;
+	float: left;
+}
+#footer button {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+#footer button:hover {
+	background-color: #555;
+}
+#section {
+	float: right;
+	padding-right: 80px;
+	padding-bottom: 30px;
+}
+#section p {
+	margin: auto;
+	background-color: yellow;
+	color: red;
+	font-size: 25px;
+}
+#section ul {
+	list-style-type: none;
+	background-color:yellow;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#section li {
+	display: inline;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
+	color: red;
+}
+#leftside form {
+	float: left;
+	background-color:yellow;
+	width: 350px;
+	padding: 10px;
+}
+#leftside label {
+	color:red;
+}
+#leftside form input {
+	float: right;
+	padding-right: 12px;
+}
+#leftside form button {
+	width: 100px;
+	background-color:red;
+	font-size: 20px;
+	font-weight: bold;
+}
+#map {
+	float:right;
+	padding-bottom: 20px;
+}
+#orderForm h1 {
+	font-size: 20px;
+}
+#choicesBlock {
+	background-color: yellow;
+	color: red;
+	border: double;
+	border-color: red;
+}
+#orderForm form {
+	background-color: yellow;
+	float: left;
+	width: 450px;
+}
+#orderForm form fieldset {
+	color: red;
+	background-color: yellow;
+	border: solid;
+	border-color: red;
+}
+#orderForm form fieldset legend {
+	font-size: 20px;
+	background-color: yellow;
+	font-weight: bold;
+}
+#choicesBlock {
+	float: right;
+	width: 300px;
+	text-align: center;
+	margin-right: 200px;
+}
+#choicesBlock h1 {
+	text-decoration: underline;
+}
+#choicesBlock hr {
+	border-color: red;
+	border-style: solid;
+}

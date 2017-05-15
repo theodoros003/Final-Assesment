@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/html" href="index.html">
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="stylesheet" type="text/html" href="order.html">
+	<script type="text/javascript" src="scripts/contact.js"></script>
+	<link rel="icon" href="favicon.jpg">
+    <title>Solent Pizzas Contact</title>
+</head>
+
+<body onload="main()">
+
+	<div id="wrapper">
+		<div id = "header">
+            <br></br>
+            <div id="date"></div>
+            <h1>Welcome to Solent Pizza!</h1>
+			<button type="button" id="homePage">Home page</button>
+			<button type="button" id="orderPage">Order Now</button>
+			<button type="button" id="contactPage">Contact Us</button>
+			<br></br>
+        </div><!-- end header-->
+		
+		<div id = "leftside">
+			<br></br>
+			<form id="contact">
+				<p><label>First Name(*): </label> <input type="text" name="firstName"></p>
+				<p id="firstNameError" style="display: none"> required </p>
+				<p><label>Last Name(*): </label> <input type="text" name="lastName"></p>
+				<p id="lastNameError" style="display: none"> required </p>
+				<p><label>Email(*): </label> <input type="email" name="email"></p>
+				<p id="emailError" style="display: none"> required </p>
+				<p><label>Phone Number: </label> <input type="text" name="phone"></p>
+				<p><label>Message(*): </label> <textarea rows="7" cols="46" name="message"></textarea></p>
+				<p id="messageError" style="display: none"> required </p>
+				<button type="submit" id="button">Submit</button>
+			</form>
+	
+		</div><!-- end leftside-->
+		
+		<div id = "map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5906.311501807664!2d-1.40337750570314!3d50.90624834033411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x7b3d2a7c433db059!2sSouthampton+Solent+University!5e1!3m2!1sen!2suk!4v1460305490254" 
+			width="800" height="600" style="border:0"></iframe>
+		</div><!-- end map-->
+		
+		<div id = "footer">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div><!-- end footer-->
+	</div><!-- end wrapper-->
+
+</body>
+
+</html>
